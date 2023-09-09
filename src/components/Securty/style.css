@@ -1,0 +1,52 @@
+.Securty {
+    width: 100%;
+    max-width: 400px;
+    transform: translateX(0);
+  }
+  
+  .Securty.animation {
+    animation-name: bounced;
+    animation-duration: 0.4s;
+  }
+  
+  .SecurtyCode {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .SecurtyCode span {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: block;
+    background-color: white;
+  }
+  
+  .SecurtyCode span.active {
+    background-color: blue;
+  }
+  
+  
+  
+  @keyframes bounced {
+    0% {
+      transform: translateX(-50px)
+    }
+    25% {
+      transform: translateX(50px)
+    }
+    50% {
+      transform: translateX(-50px)
+    }
+    75% {
+      transform: translateX(50px)
+    }
+    100% {
+      transform: translateX(0px)
+    }
+    
+  }

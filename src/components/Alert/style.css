@@ -1,0 +1,15 @@
+.Alert {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Alert.success {
+    background-color: green;
+}
+
+.Alert.danger {
+    background-color: red;
+}
